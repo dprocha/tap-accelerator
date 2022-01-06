@@ -4,6 +4,6 @@ metadata:
   name: tap-k8s
 spec:
   git:
-    url: ssh://git@github.com/dprocha/tap-accelerator.git
+    url: https://github.com/dprocha/tap-accelerator.git
     ref:
       branch: main
