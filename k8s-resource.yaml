@@ -1,0 +1,9 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: tap-k8s
+spec:
+  git:
+    url: ssh://git@github.com/dprocha/tap-accelerator.git
+    ref:
+      branch: main
